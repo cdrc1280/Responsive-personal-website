@@ -1,0 +1,59 @@
+.services {
+  .container {
+    .services-item {
+      margin-bottom: 30px;
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+
+      .services-item-inner {
+        background: var(--bg-black-100);
+        border: 1px var(--bg-black-50) solid;
+        border-radius: 10px;
+        padding: 30px 15px;
+        text-align: center;
+        @include transition;
+
+        &:hover {
+          box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+          .icon {
+            background: var(--skin-color);
+
+            i {
+              font-size: 25px;
+              color: #fff;
+            }
+          }
+        }
+
+        .icon {
+          height: 60px;
+          width: 60px;
+          border-radius: 50%;
+          display: block;
+          margin: 0 auto 30px;
+          text-align: center;
+          @include transition;
+          i {
+            font-size: 40px;
+            line-height: 60px;
+            color: var(--skin-color);
+            @include transition;
+          }
+        }
+
+        h4 {
+          font-size: 18px;
+          margin-bottom: 15px;
+          color: var(--text-black-900);
+          font-weight: 700;
+          text-transform: capitalize;
+        }
+        p {
+          font-size: 1rem;
+          color: var(--text-black-700);
+          line-height: 25px;
+        }
+      }
+    }
+  }
+}

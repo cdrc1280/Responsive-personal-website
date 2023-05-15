@@ -1,0 +1,16 @@
+@mixin flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flexbox-none {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+@mixin border-checker {
+  border: 1px black solid;
+}
+@mixin transition {
+  transition: all 0.3s ease;
+}

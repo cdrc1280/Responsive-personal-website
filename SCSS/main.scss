@@ -1,0 +1,23 @@
+//Fonts
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,400&display=swap");
+
+@import "./mixin";
+
+// Color Switcher
+@import "./skins/color_switcher";
+
+@import "./settings/presets";
+
+//Content
+@import "./contents/section";
+@import "./contents/aside";
+@import "./contents/home";
+@import "./contents/about";
+@import "./contents/services";
+@import "./contents/portfolio";
+@import "./contents/contact";
+
+// Media Queries
+@import "./Media_query/MQLarge";
+@import "./Media_query/MQMedium";
+@import "./Media_query/MQtablet";

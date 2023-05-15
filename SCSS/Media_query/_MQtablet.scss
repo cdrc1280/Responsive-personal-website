@@ -1,0 +1,54 @@
+@import "./MQmain";
+
+@include responsive(tablet) {
+  .about {
+    .container {
+      .personal-info,
+      .skills,
+      .education,
+      .experience {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+  }
+
+  .services {
+    .container {
+      .services-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+  }
+
+  .portfolio {
+    .container {
+      .row {
+        .portfolio-item {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  .contact {
+    .container {
+      .row {
+        .contact-info-item {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+        .contact-form {
+          .row {
+            .col-6 {
+              flex: 0 0 100%;
+              max-width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

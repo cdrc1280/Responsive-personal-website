@@ -1,0 +1,24 @@
+@import "./MQmain";
+
+@include responsive(largescreen) {
+  .aside {
+    left: -270px;
+  }
+  .main-content {
+    padding-left: 0;
+  }
+  .about {
+    .container {
+      .personal-info {
+        .info-item {
+          p {
+            span {
+              display: block;
+              margin-left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

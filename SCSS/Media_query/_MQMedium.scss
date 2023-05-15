@@ -1,0 +1,46 @@
+@import "./MQmain";
+
+@include responsive(mediumscreen) {
+  .home {
+    .container {
+      .home-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+      .home-img {
+        display: none;
+      }
+    }
+  }
+
+  .services {
+    .container {
+      .services-item {
+        flex: 0 0 100%;
+        max-width: 50%;
+      }
+    }
+  }
+
+  .portfolio {
+    .container {
+      .row {
+        .portfolio-item {
+          flex: 0 0 100%;
+          max-width: 50%;
+        }
+      }
+    }
+  }
+
+  .contact {
+    .container {
+      .row {
+        .contact-info-item {
+          flex: 0 0 100%;
+          max-width: 50%;
+        }
+      }
+    }
+  }
+}
